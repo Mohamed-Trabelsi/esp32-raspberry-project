@@ -3,8 +3,8 @@
 #include <WiFi.h>
 
 // WiFi
-const char* ssid = "Airbox-FC4A";                 // Your personal network SSID
-const char* wifi_password = "3h3H2n5C"; // Your personal network password
+const char* ssid = "ssid";                 // Your personal network SSID
+const char* wifi_password = "password"; // Your personal network password
 int potpin = 35; 
 // MQTT
 const char* mqtt_server = "broker.emqx.io";  // IP of the MQTT broker

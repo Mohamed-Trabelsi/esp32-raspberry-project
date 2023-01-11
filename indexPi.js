@@ -71,7 +71,7 @@ console.log(JSON.parse(message));
 const mysql = require('mysql2');
 
 const con = mysql.createConnection({
-  host: "192.168.1.111",
+  host: "ip adress of ur localhost",
   user: "root",
   password: "",
   database: "chart"
